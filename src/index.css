@@ -1,0 +1,127 @@
+
+html{
+  scroll-behavior: smooth;
+}
+/* ::-webkit-scrollbar{
+  width:10px;
+  background-color: rgb(204, 43, 43);
+
+} */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.parallax{
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 9);
+}
+
+.content1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: absolute;
+  width:100%;
+}
+.content2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: absolute;
+  position: absolute;
+  width:100%;
+}
+.content3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: absolute;
+  width:100%;
+}
+
+.parallax1_btn{
+  position: absolute;
+    top: 50%;
+    margin-top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: gray;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 20px;
+}
+.parallax1_btn:hover{
+  background: rgba(255, 255, 255, 0.9);
+  padding: 25px;
+  transition: all 1s ease;
+}
+.parallax_p{
+  color: rgb(255, 245, 245);
+  font-size: 25px;
+  top:50%;
+  left: 30px;
+  position: absolute;
+  font-weight: bold;
+  z-index: 999;
+}
+.video{
+  object-fit: cover;
+  height: 80%;
+  width: 50%;
+}
+.videos{
+   position: absolute;
+    object-fit: cover;
+    filter: brightness(20%);
+    top: 0;
+    left: 0;
+    inset: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.span_parallax3{
+  position: absolute;
+  top: 120%;
+  left: 45px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.parallax3_btn{
+  margin-top: 600px;
+  left: 100px;
+  position: absolute;
+  background-color:rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  font-size: larger;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.parallax3_btn:hover{
+  background: rgba(255, 255, 255, 0.9);
+  padding: 25px;
+  color:gray;
+  transition: all 1s ease;
+}
